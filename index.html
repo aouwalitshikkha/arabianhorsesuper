@@ -97,20 +97,47 @@
       </div>
     </div>
 
-    <!-- Download ZIP -->
-    <div class="bg-white border border-gray-200 rounded-2xl p-6 mb-8 shadow-sm flex flex-col sm:flex-row items-center justify-between gap-4">
-      <div class="flex items-center gap-4">
-        <div class="w-12 h-12 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-emerald-500/20">
-          <i class="fas fa-file-zipper text-xl"></i>
+    <!-- Summary -->
+    <div class="bg-white border border-gray-200 rounded-2xl p-6 sm:p-8 mb-8 shadow-sm">
+      <div class="flex items-center gap-4 mb-5">
+        <div class="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-blue-500/20">
+          <i class="fas fa-clipboard-check text-xl"></i>
         </div>
         <div>
-          <h3 class="font-bold text-gray-800">Download Full Report</h3>
-          <p class="text-sm text-gray-500">Get a ZIP copy of the complete audit report.</p>
+          <h3 class="font-bold text-gray-800 text-lg">Summary</h3>
+          <p class="text-sm text-gray-500">Quick overview of the primary findings</p>
         </div>
       </div>
-      <a href="https://github.com/aouwalitshikkha/report-teambuildconsultancy/archive/refs/heads/master.zip" target="_blank" class="inline-flex items-center gap-2 px-5 py-2.5 bg-gray-900 text-white text-sm font-semibold rounded-xl hover:bg-gray-800 transition shadow-lg">
-        <i class="fas fa-download"></i> Download ZIP
-      </a>
+
+      <div class="space-y-4">
+        <div class="flex items-start gap-3 p-4 bg-rose-50 border border-rose-100 rounded-xl">
+          <div class="mt-0.5 text-rose-500 flex-shrink-0"><i class="fas fa-paint-brush"></i></div>
+          <div>
+            <h4 class="text-sm font-semibold text-gray-800">Design &amp; Usability</h4>
+            <p class="text-sm text-gray-600 mt-1 leading-relaxed">The website has major design and usability issues. A redesign or significant changes may be needed to improve user experience and brand presentation.</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-3 p-4 bg-blue-50 border border-blue-100 rounded-xl">
+          <div class="mt-0.5 text-blue-500 flex-shrink-0"><i class="fas fa-sitemap"></i></div>
+          <div>
+            <h4 class="text-sm font-semibold text-gray-800">Site Architecture</h4>
+            <p class="text-sm text-gray-600 mt-1 leading-relaxed">The site structure needs optimization for both search engines (SEO) and AI/LLM bots to improve visibility and indexing.</p>
+          </div>
+        </div>
+
+        <div class="flex items-start gap-3 p-4 bg-amber-50 border border-amber-100 rounded-xl">
+          <div class="mt-0.5 text-amber-500 flex-shrink-0"><i class="fas fa-exclamation-triangle"></i></div>
+          <div>
+            <h4 class="text-sm font-semibold text-gray-800">Google Search Console Issues</h4>
+            <p class="text-sm text-gray-600 mt-1 leading-relaxed">Major GSC issues were found, including a very high TTFB (Time to First Byte). This affects page speed, crawlability, and overall search performance.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5 bg-gray-50 border border-gray-100 rounded-xl p-4">
+        <p class="text-sm text-gray-700 leading-relaxed"><strong>Note:</strong> I primarily provide SEO consultancy. Some of my partners offer design and development services. If you are interested in making major improvements, feel free to reach out. Please note that the current website is not SEO-friendly.</p>
+      </div>
     </div>
 
     <!-- Section Title -->
